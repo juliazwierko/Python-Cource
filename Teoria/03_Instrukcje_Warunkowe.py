@@ -8,12 +8,14 @@ if 5 > 5:
 user_data = int(input("Wpisz liczbe: "))
 print("Podana liczba", user_data, end="\n\n")
 
+#------------------------------------------------
+
 if user_data != 5:
     print("liczba weksza od 5")
     # < > =< +> == !=   
     if user_data == 6:
         print("Liczba jest rowna 6", end="\n\n")
-    
+
 isHappy = True
 if isHappy == True:
     print("user is happy 1x")
@@ -24,12 +26,26 @@ if isHappy:
 isUnhappy = False
 if isUnhappy == True:
     print("user is unhappy 1x")
-    
+
 if isUnhappy:
     print("user is unhappy 2x")
 elif isUnhappy == False:
-    print("Yooooo")
+    print("Yooooo", end="\n\n")
 else:
     print("user is unhapy")
 
+#------------------------------------------------
+
+language = "russian"
+daytime = "morning"
+if language == "english":
+    if daytime == "morning":
+        print("Good morning")
+    else:
+        print("Good evening")
+else:
+    if daytime == "morning":
+        print("Доброе утро")
+    else:
+        print("Добрый вечер")
 
