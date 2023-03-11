@@ -13,9 +13,9 @@ print("num_1 // num_2 = ", num_1//num_2, end="\n\n")
 num_1 += 5 #num_1 = num_1+5
 print("num_1 + 5 = ",num_1, end="\n\n")
 
-word = "Paweeeł" #string
+word = "Paweeeł <3" #string
 print(word * 2) #wypisuje 2 razy
-word = "Cynamonka ^_^"
+word = "Cynamonka ^_^" #string
 print(word)
-word = True
+word = True #bool
 print(word)
