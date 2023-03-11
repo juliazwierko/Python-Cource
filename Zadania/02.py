@@ -19,3 +19,5 @@ word = "Cynamonka ^_^" #string
 print(word)
 word = True #bool
 print(word)
+
+
