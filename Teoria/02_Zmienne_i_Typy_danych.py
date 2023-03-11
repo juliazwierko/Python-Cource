@@ -1,30 +1,22 @@
-name = "Julia"
+number = 5 # integer/int 
+digit = 4.54321 # float
+digit_2 = "4.54321" # string!!!
+word = "Siemaaa:" # string
+#bool - True/False # bool
+boolean = False
 
-# две разные переменные
-name = "Paweł"
-Name = "Paweł"
-print(name)
-print(Name,'\n\n')
+print("\n")
+#print(word + boolean) - ERROR string+bool BLAD, rozne typy danych 
+print(boolean)
+print(word, digit)
+print("Wynik:",number)
 
-# изменение в течение работы программы
-name = "Tom"  # переменной name равна "Tom"
-print(name)   # выводит: Tom
-name = "Bob"  # меняем значение на "Bob"
-print(name,'\n\n')   # выводит: Bob
+#usuwanie zmniennej
+del number 
 
-# Типы данных
-# bool
-isMarried = False
-print(isMarried)    # False
- 
-isAlive = True
-print(isAlive)      # True
-print("\n\n")
+number = 5**2
+print("Wynik:",number)
+print("\n")
 
-# int
-age = 21
-print("Возраст:", age)    # Возраст: 21
- 
-count = 15
-print("Количество:", count) # Количество: 15
-
+#Funkcja str(float/int) - float/int-->string
+#Funkcja int(string) - string-->int
